@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Internos</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+</head>
+<body>
+    
+    <!--Links do menu-->
+
+    <ul>
+        <li><a href="#l1">Sobre mim</a></li>
+        <li><a href="#l2">Minha formação</a></li>
+        <li><a href="#l3">Meu portfólio</a></li>
+        <li><a href="#l4">Contato</a></li>
+       
+    </ul>
+    <br>
+    <br>
+
+<!--Sobree mim-->
+
+    <h3 id="l1">Sobre mim</h3>
+    <p> Meu nome é Felipe Carvalho de Castro, nasci no interior do Rio de Janeiro, onde morei com meu pai.</p>  
+    <p>Passei a maior parte da minha infância no sítio dos meus avós. Pescando, brincando com os animais e fazendo outras atividades ao ar livre.</p> 
+    <p>Na minha adolescência fui morar com minha mãe na cidade de São Mateus.  Encontrei a diversão nos videogames, livros e mangás.</p>            
+    <p>Após terminar o ensino médio eu e minha mãe fomos morar em Vitória - ES. Onde fiz o curso de Técnico em Mecânica Industrial.</p>  
+    <p>Atualmente continuo em Vitória e trabalho em uma Metalúrgica como encarregado de produção. E busco migrar para a área de TI.</p>
+    
+<!--Minha formação-->
+
+    <h3 id="l2">Minha formação</h3>
+    <p> Curso: Técnico em Mecânica Industrial
+    </p>
+    <p>Instituição: Senai
+    </p>
+    
+<!--Meu portifólio, com hiperlink-->
+
+    <h3 id="l3">Meu portfólio</h3>
+    <p>Atividade realizada na aula de Fundamentos de desenvolvimento de software:</p>
+    <p><a href="https://felipecarj.github.io/atividade-formulario-pizza/" class="botao">Clique Aqui</a><p>
+        <img src="formulario.png" alt="Formulário">
+
+<!--Formulário para contato-->
+
+    <h3 id="l4">Contato</h3>
+    <p>Quer falar comigo? É só enviar uma mensagem.</p>
+   
+    <form action="/submit_form" method="post">
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Assunto:</label><br>
+        <input type="text" id="subject" name="subject"><br><br>
+
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+   
+
+</body>
+</html>
